@@ -1,6 +1,6 @@
 # Mobile-Sensor-Analysis
 
-1. WALKING.csv, TURNING.csv, and WALKING_AND_TURNING.csv contain the sensor data. In columns k -> s, I have smoothed the data using exponentially-weighted moving average.
+1. WALKING.csv, TURNING.csv, and WALKING_AND_TURNING.csv contain the sensor data. In columns k -> s, I have smoothed the data using exponentially-weighted moving average with an alpha of 0.9.
     - WALKING.csv contains data gathered while holding the phone face-up and walking in the direction of the top of the phone.
     - TURNING.csv contains data gathered while turning the phone 90 degrees clockwise 4 times and 90 degrees counterclockwise 4 times. 
       The phone was face-up on a table.
